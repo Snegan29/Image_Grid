@@ -1,1 +1,21 @@
+body {
+    background-image: url("https://images8.alphacoders.com/593/593616.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+h1 {
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+img {
+    height:300px;
+    width: 490px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
